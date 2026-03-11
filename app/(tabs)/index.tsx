@@ -99,8 +99,7 @@ export default function Index() {
            <View style={styles.ligne}>
             <Touche symbole="C" auClic={gererAppui} couleur="#7c4338" petit={estPaysage} />
             <Touche symbole="x" auClic={gererAppui} couleur="#222" petit={estPaysage} />
-            <Touche symbole="O / f" auClic={gererAppui} couleur="#7c4338" petit={estPaysage} />
-            {estPaysage && <Touche symbole="sin" auClic={gererAppui} couleur="#7f8384" petit={estPaysage} />}
+           <Touche symbole="On / 0ff" auClic={gererAppui} couleur="#7c4338" petit={estPaysage} />{estPaysage && <Touche symbole="sin" auClic={gererAppui} couleur="#7f8384" petit={estPaysage} />}
             {estPaysage && <Touche symbole="cos" auClic={gererAppui} couleur="#7f8384" petit={estPaysage} />}
             <Touche symbole="/" auClic={gererAppui} couleur="#7f8384" petit={estPaysage} />
           </View>
